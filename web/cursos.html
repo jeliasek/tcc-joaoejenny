@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt-br">
+
+    <head>
+        <title>TCC</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="_css/cursos.css"/>
+        <script language="javascript" src="_javascript/funcoes.js"></script>
+
+    </head>
+    <body>
+        <div id ="interface">
+            <img src="_imagens/logo_ifc.png"/>
+
+            <header id = "cabecalho">
+                <img id="icone" src="_imagens/orienta25C325A725C325A3o1.png" width="125"/>
+                <hgroup>
+                    <h1> Teste Vocacional </h1>
+                    <h2> Quer ingressar no IFC? Saiba qual o curso que você se encaixa! </h2>
+                </hgroup>
+                <nav id="menu">
+                    <h1>Menu Principal </h1>
+                    <ul> 
+                        <li onmouseover="mudaFoto('_imagens/icon-casa.png')" onmouseout="mudaFoto('_imagens/cursos.png')"> <a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/cursos.png')" onmouseout="mudaFoto('_imagens/cursos.png')"> <a href="cursos.html">Cursos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/icon-teste.png')" onmouseout="mudaFoto('_imagens/cursos.png')"> <a href="teste.jsp">Teste Vocacional</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fale-conosco.png')" onmouseout="mudaFoto('_imagens/cursos.png')"> <a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="corpo-full">
+                <article id="cursos">
+                    <header id="cabecalho-cursos">
+                        <hgroup>
+                            <h1>Saiba quais são as matérias, professores e quantas horas cada curso tem!</h1>
+                            <h2>Por Jenny e João Elias</h2>
+                            <h3>Atualizado em 12/07/2017</h3>
+
+                        </hgroup>
+                    </header>
+                    <p>Clique em qualquer curso para ter mais informações</p>
+
+                    <section id="conteudo">
+                        <img src="_imagens/cursos.png"  usemap="#meumapa"/>
+                        <map name="meumapa">
+                            <area shape="rect" coords="35, 20, 223,135" href="ifc.html#info" target="janela"/>
+                            <area shape="rect" coords="37, 185, 211, 315" href="ifc.html#vest" target="janela"/>
+                            <area shape="rect" coords="251, 98, 452, 266" href="ifc.html#adm" target="janela"/>
+
+                        </map>
+                        <iframe src="ifc.html" name="janela" id="cursos" SCROLLING="no"></iframe>
+
+                    </section>
+                </article>
+            </section>
+
+
+            <div>
+
+                <footer id="rodape">
+                    <p>
+                        Copyright  2017 - by Jenny Ayra e João Elias <br />
+                        Facebook | <a href="https://twitter.com/joaoeliax" target="_blank">Twitter</a>
+                    </p>
+                </footer>
+            </div>
+
+        </div>
+    </body>
+
+</html>
