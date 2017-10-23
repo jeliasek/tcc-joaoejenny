@@ -1,0 +1,226 @@
+@font-face{
+    font-family: FaceLogo;
+    src: url("../_fonte/TitilliumWeb-Regular.ttf")
+}
+
+h1{
+    font-family: Arial;
+    font-size: 30pt;
+    color: black;
+
+} 
+
+h2{
+    font-family: Arial;
+    font-size: 15;
+    color: gray;
+}
+
+h4{
+    font-family: Arial;
+    font-size: 100;
+    text-align: center;
+    color: crimson;
+    margin-top: 0px;
+}
+
+p{
+    text-align:  justify;
+    text-indent: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+a{
+    color: black;
+    font-family: FaceLogo;
+    
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+header#cabecalho{
+    border-bottom: 2px #606060 solid;
+    height: 150px;
+    
+}
+
+header#cabecalho h1{
+    font-family: FaceLogo, sans-serif;
+    font-size: 30pt;
+    color: maroon;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+    
+}
+
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    color: darkslategrey;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+body{
+    background-color: bisque;
+
+
+}
+
+/* Formatação da Interface*/
+
+div#interface{
+    width: 1000px;
+    background-color: blanchedalmond;
+    margin: -10px auto 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px 10px 10px 10px;
+}
+
+/* formatação de imagens com legendas */
+
+figure.foto-legenda{
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption p {
+    text-align: center;
+}
+
+/* Formatação do Menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    
+    
+   list-style: none;
+   text-transform: uppercase;
+   position: absolute;
+   top: -19px;
+   left: 540px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: antiquewhite;
+}
+
+
+nav#menu h1{
+    display: none;
+
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+nav#menu a:hover{
+    color: gray;
+    text-decoration: underline; /* N curti sublinhar */
+}
+
+article#principal h2{
+    font-size: 20pt;
+    color: #606060;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#c-section h1{
+    font-family: FaceLogo;
+    line-height: 0px;
+    
+}
+
+header#c-section h2{
+    font-family: Arial;
+    font-size: 20pt;
+    color: #606060;
+    
+        
+}
+
+    
+    
+
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+
+header#cabecalho-cursos h1{
+    font-family: FaceLogo;
+    font-size: 23pt;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-cursos h2{
+    font-size: 10pt;
+    
+    margin-bottom: 30px;
+}
+
+header#cabecalho-cursos h3{
+    font-size: 10pt;
+    text-align: right;
+}
+
+hgroup#oioi img#oi{
+    
+    position: absolute;
+    right: 10000px;
+    top: 500px;
+    align-self: center;
+    
+}
+
+img#oi{
+    align-self: center;
+    float: right;
+    margin-right:400px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    width: 200pt;
+    
+}
+
+

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+form{
+    width: 500px;
+    margin: auto;
+
+}
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+
+}
+
+input:hover, textarea:hover{
+    background-color: darkgrey;
+
+}
+
+legend{
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: #888888;
+    margin: 20px;
+
+}
+
+form#teste fieldset{
+    background-color: #e1e1e1; 
+    width: 400px; 
+    height: 150px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%; 
+}
+
+#divCenter { 
+    background-color: #e1e1e1; 
+    width: 400px; 
+    height: 150px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%; 
+}

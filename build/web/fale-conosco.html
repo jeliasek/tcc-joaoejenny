@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <title>TCC</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+        <link rel="stylesheet" href="_css/form.css"/>
+        <script language="javascript" src="_javascript/funcoes.js"></script>
+
+    </h:head>
+    <h:body>
+        <div id ="interface">
+            <img src="_imagens/logo_ifc.png"/>
+
+            <header id = "cabecalho">
+                <img id="icone" src="_imagens/orienta25C325A725C325A3o1.png" width="125"/>
+                <hgroup>
+                    <h1> Teste Vocacional </h1>
+                    <h2> Quer ingressar no IFC? Saiba qual o curso que você se encaixa! </h2>
+                </hgroup>
+                <nav id="menu">
+                    <h1>Menu Principal </h1>
+                    <ul> 
+                        <li onmouseover="mudaFoto('_imagens/icon-casa.png')" onmouseout="mudaFoto('_imagens/fale-conosco.png')"> <a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/cursos.png')" onmouseout="mudaFoto('_imagens/fale-conosco.png')"> <a href="cursos.html">Cursos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/icon-teste.png')" onmouseout="mudaFoto('_imagens/fale-conosco.png')"> <a href="teste.jsp">Teste Vocacional</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fale-conosco.png')" onmouseout="mudaFoto('_imagens/fale-conosco.png')"> <a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="corpo-full">
+                <article id="cursos">
+                    <header id="cabecalho-cursos">
+                        <hgroup>
+                            <h1>Formulário de contato</h1>
+                            <h2>Por Jenny e João Elias</h2>
+                            <h3 class="direita">Atualizado em 12/07/2017</h3>
+                        </hgroup>
+                    </header>
+                    <form method="post" id="fContato" action="mailto:jeliasek@gmail.com">
+                        <fieldset id="usuario">
+                            <legend>Identificação do Usuário</legend>
+                            <p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" size="30" placeholder="Nome completo"/></p>
+                            <p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="9" maxlength="8" placeholder="Máx 8 digitos"/></p>
+                            <p><label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size="30" placeholder="Seu e-mail"/></p>
+                            <fieldset id="sexo"><legend>Sexo</legend>
+                                <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc">Masculino</label> <br/>
+                                <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label> 
+                            </fieldset>
+                            <p><label for="cCid">Cidade:</label> <input type="text" name="tCid" id="cCid" size="30" placeholder="Sua Cidade"/></p>
+                            <p><label for="cEst">Estado:</label> 
+                                <select name="tEst" id="cEst">
+                                    <option>AC</option>
+                                    <option>AM</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MG</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>PR</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>RS</option>
+                                    <option>SE</option>
+                                    <option selected="SC">SC</option>
+                                    <option>SP</option>
+                                    <option>TO</option>
+
+                                </select></p>
+                            <p><label for="cData">Data de nascimento:</label> <input type="date" name="tData" id="cData"/></p>
+                        </fieldset>
+
+                        <fieldset id="mensagem">
+                            <legend>Mensagem do Usuário</legend>
+                            <p> <label for="idMsg">Mensagem:</label>
+                                <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem!"></textarea></p>
+                        </fieldset>
+
+                        <input type="submit" value="Enviar"/>
+
+                    </form>
+
+                </article>
+            </section>
+            <div>
+                <footer id="rodape">
+                    <p>
+                        Copyright  2017 - by Jenny Ayra e João Elias <br />
+                        Facebook | <a href="https://twitter.com/joaoeliax" target="_blank">Twitter</a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </h:body>
+</html>
